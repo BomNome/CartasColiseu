@@ -6,6 +6,9 @@
     display: flex;
     justify-content: center;
 }
+html{
+    background: rgb(29, 29, 29);
+}
 @font-face {
     font-family: Oswald;
     src: url('fontes/Oswald-VariableFont_wght.ttf');
@@ -76,7 +79,7 @@
 }
 .custo{
     position: absolute;
-    background: url(imagens/custo/20.png);
+    background: url(imagens/custo/00.png);
     background: cover;
     width: 900px;
     height: 1300px;
@@ -93,7 +96,7 @@
 }
 .lenda{
     position: absolute;
-    background-image: url(imagens/lenda/val.png);
+    background-image: url(imagens/lenda/1default.png);
     width: 900px;
     height: 1300px;
     z-index: 2;
